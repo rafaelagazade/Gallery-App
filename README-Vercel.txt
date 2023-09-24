@@ -1,3 +1,3 @@
 Webpage Preview
 
-gallery-app-phi-six.vercel.app
+https://gallery-app-one-psi.vercel.app/
