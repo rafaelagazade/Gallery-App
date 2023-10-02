@@ -40,17 +40,17 @@ function App() {
   };
 
   return (
-    <div className="App w-full h-[100vh] bg-gray-700 flex flex-col align-center justify-center">
+    <div className="App w-full h-[100vh] bg-gray-700 flex flex-col align-center justify-center ">
       {
-        <div className="w-1/3 h-[400px] m-auto bg-black justify-center items-center overflow-hidden border-solid border-black border-3">
-          <div className="w-100% h-2/4 ">
+        <div className="laptop:w-2/4 laptop:h-[400px] m-auto bg-black justify-center items-center overflow-hidden border-solid border-black border-3 xs:w-full xs:rounded-xl ">
+          <div className="w-auto h-2/4 xs:h-1/4 xs:flex xs:justify-center xs:mt-10 ">
             <img
               src={mainImg}
               alt="main"
-              className="w-2/4 h-100%  border-4 border-red-700"
+              className="w-2/4 h-100% border-4 border-red-700 xs:w-auto"
             />
           </div>
-          <div className="flex flex-wrap gap-14">
+          <div className="flex flex-wrap gap-14 xs:gap-10 xs:flex xs:justify-center xs:mt-10 ">
             {photos?.map((photo) => (
               <div
                 key={photo.id}
